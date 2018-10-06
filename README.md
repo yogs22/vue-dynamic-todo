@@ -1,4 +1,4 @@
-# vue-dynamic-todo
+# Vue Dynamic Todo
 Simple dynamic Vue Todo Application
 
 ## Technology
