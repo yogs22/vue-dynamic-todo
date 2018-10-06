@@ -1,0 +1,12 @@
+ul {
+	padding: 0;
+	margin: 10px 0;
+}
+
+ul li {
+	line-height: 2.5;
+}
+
+.completed {
+	text-decoration: line-through;
+}
