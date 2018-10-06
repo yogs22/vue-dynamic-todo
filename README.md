@@ -3,7 +3,8 @@ Simple dynamic Vue Todo Application
 
 ## Technology
 
-Powered by https://vuejs.org/.
+Front end Powered by https://vuejs.org/.
+
 The backend for this project use PHP 7 
 
 ## Installation
