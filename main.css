@@ -10,6 +10,11 @@ h1.title{
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
+	text-shadow: 2px 1px #0d74d4;
+}
+h1.title:hover{
+	letter-spacing: 2px;
+
 }
 ul {
 	padding: 0;
@@ -26,4 +31,26 @@ ul li {
 
 p.notodo{
 	font-weight: bold;
+	text-align: center;
+	background-color: #62b2fc;
+	padding: 10px;
+	border-radius: 20px;
+	width: 50%;
+}
+input.form {
+	caret-color: #020f29;
+	border: 2px solid #020f29;
+	border-radius: 20px;
+	color: #030811;
+	text-align: center;
+}
+
+input.form:focus{
+	background-color: #0d74d4;
+	border: 2px solid #355fbb;
+	padding: 10px;
+}
+
+input.form::placeholder{
+	color: #030811;
 }
