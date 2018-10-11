@@ -10,7 +10,9 @@ h1.title{
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
+	color: #030811;
 	text-shadow: 2px 1px #0d74d4;
+	margin-bottom: 50px;
 }
 h1.title:hover{
 	letter-spacing: 2px;
@@ -30,24 +32,24 @@ ul li {
 }
 
 p.notodo{
+	margin-top: 100px;
 	font-weight: bold;
 	text-align: center;
-	background-color: #62b2fc;
+	color: #5f378d;
 	padding: 10px;
 	border-radius: 20px;
 	width: 50%;
 }
 input.form {
 	caret-color: #020f29;
-	border: 2px solid #020f29;
 	border-radius: 20px;
+	border: 1px solid #020f29;
 	color: #030811;
 	text-align: center;
 }
 
 input.form:focus{
 	background-color: #0d74d4;
-	border: 2px solid #355fbb;
 	padding: 10px;
 }
 
