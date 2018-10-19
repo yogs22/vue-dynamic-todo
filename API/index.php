@@ -6,6 +6,7 @@ $request = $_SERVER['REQUEST_METHOD'];
 
 switch ($request) {
 	case 'GET':
+		
 		$sql = "SELECT * FROM todo";
 		$result = mysqli_query($conn, $sql);
 

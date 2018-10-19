@@ -20,16 +20,27 @@ h1.title:hover{
 }
 ul {
 	padding: 0;
-	margin: 10px 0;
+	margin: 40px 0;
 }
 
 ul li {
 	line-height: 2.5;
+	list-style-type: none;
+	text-align: center;
+
 }
 
-.completed {
-	text-decoration: line-through;
+span {
+	color: #000000;
+	margin-left: 20px;
 }
+
+span.completed {
+	text-decoration-line: line-through;
+	text-decoration-style: solid;
+	text-decoration-color: green;
+}
+
 
 p.notodo{
 	margin-top: 100px;
@@ -50,9 +61,47 @@ input.form {
 
 input.form:focus{
 	background-color: #0d74d4;
-	padding: 10px;
+	padding: 5px;
 }
 
 input.form::placeholder{
 	color: #030811;
 }
+
+button.delete {
+	padding: 5px;
+	background: red;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+button.delete:hover{
+	border: 1px solid red;
+	color: red;
+	background: white;
+	border-radius: 20px;
+	padding: 8px;
+}
+button.delete:visited{
+	background: white;
+	color: red;
+	padding: 8px;
+}
+
+button.done{
+	padding: 5px;
+	background: green;
+	margin-left:10px;
+}
+button.done:hover{
+	border: 1px solid green;
+	color: green;
+	background: white;
+	padding: 8px;
+	border-radius: 20px;
+}
+button.done:visited{
+	background: white;
+	color: green;
+	padding: 8px;
+}
+
